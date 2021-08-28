@@ -1,0 +1,31 @@
+#Main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5px 0px;
+}
+#Main .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+#Main .info > * {
+  margin: 20px 0px;
+}
+.mockups {
+  display: flex;
+  justify-content: center;
+}
+.mockups img {
+  width: 450px;
+  background: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -40px;
+  background-position-x: -50px;
+  position: relative;
+  top: 100px;
+
+  /* background-position-x: -90px; */
+}

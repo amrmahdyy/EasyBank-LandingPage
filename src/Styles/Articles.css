@@ -1,0 +1,35 @@
+.articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+#Articles img {
+  width: 220px;
+  border-radius: 10px;
+  height: 140px;
+  transition: opacity 300ms;
+  transition: transform 300ms;
+  margin-bottom: 4px;
+}
+#Articles .author {
+  font-size: 15px;
+  color: rgb(124, 124, 124);
+}
+#Articles .articleHeading {
+  transition: color 300ms;
+}
+#Articles .articleHeading:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
+#Articles p {
+  font-size: 16px;
+}
+#Articles img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+#Articles > * {
+  margin-top: 20px;
+}
