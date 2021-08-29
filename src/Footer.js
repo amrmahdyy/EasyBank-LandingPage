@@ -32,7 +32,7 @@ const Footer = () => {
           <a>Privacy Policy</a>
         </div>
         <div id="copyRight">
-          {/* <a className="inviteBtn">Request Invite</a> */}
+          <a className="inviteBtn">Request Invite</a>
           <span>&#64; Easybank All Rights Reserved</span>
         </div>
       </footer>
