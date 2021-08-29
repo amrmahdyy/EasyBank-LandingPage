@@ -1,0 +1,13 @@
+#NavbarMenu ul {
+  list-style: none;
+  border-radius: 10px;
+}
+#NavbarMenu ul li {
+  padding: 10px 0px;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid #eee;
+}
+#NavbarMenu ul li:hover {
+  background-color: #eee;
+}

@@ -9,7 +9,8 @@
   flex-basis: auto;
   /* height: 60px; */
   align-items: center;
-  /* padding-bottom: 20px; */
+  margin-top: 5px;
+  flex-wrap: wrap;
 }
 .companyLogo {
   display: flex;
@@ -43,4 +44,48 @@
   border-bottom: 5px solid hsl(192, 70%, 51%);
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+}
+#menuBtn {
+  display: none;
+}
+/* Navbar Menu */
+#NavbarMenu ul {
+  list-style: none;
+  border-radius: 10px;
+  margin: 0;
+  padding-left: 0;
+}
+#NavbarMenu ul li {
+  padding: 10px 0px;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid #eee;
+}
+#NavbarMenu ul li:hover {
+  background-color: #eee;
+}
+
+.inactiveMenu {
+  flex-basis: 0%;
+  opacity: 0;
+  transition: none;
+  position: absolute;
+  top: -1000px;
+}
+.activeMenu {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  flex-basis: 100%;
+  transition: opacity 500ms ease;
+}
+
+@media screen and (max-width: 996px) {
+  .menu,
+  #navInviteBtn {
+    display: none;
+  }
+  #menuBtn {
+    display: inline-block;
+  }
 }
