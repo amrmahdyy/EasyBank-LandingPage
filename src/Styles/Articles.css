@@ -33,3 +33,24 @@
 #Articles > * {
   margin-top: 20px;
 }
+@media screen and (max-width: 996px) {
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  #Articles img {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .articles {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  #Articles {
+    text-align: center;
+  }
+  #Articles img {
+    width: 280px;
+  }
+}

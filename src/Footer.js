@@ -26,13 +26,13 @@ const Footer = () => {
           <a>Contact us</a>
           <a>Blog</a>
         </div>
-        <div className="navigations">
+        <div id="navigation-2" className="navigations">
           <a>Career</a>
           <a>Support</a>
           <a>Privacy Policy</a>
         </div>
         <div id="copyRight">
-          <a className="inviteBtn">Request Invite</a>
+          {/* <a className="inviteBtn">Request Invite</a> */}
           <span>&#64; Easybank All Rights Reserved</span>
         </div>
       </footer>
