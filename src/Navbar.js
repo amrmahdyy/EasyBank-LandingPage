@@ -27,7 +27,6 @@ const Navbar = () => {
           <a>Request Invite</a>
         </div>
         <a
-          href="/#"
           onClick={() => {
             const navbarMenuElem = document.getElementById("NavbarMenu");
             !navbarMenu
